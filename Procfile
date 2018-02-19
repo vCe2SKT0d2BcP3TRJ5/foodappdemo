@@ -1,0 +1,1 @@
+web: gunicorn chef_project.wsgi
