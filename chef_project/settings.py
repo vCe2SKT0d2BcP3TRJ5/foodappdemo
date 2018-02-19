@@ -26,7 +26,7 @@ SECRET_KEY = '6n$7x_^0(hmm)=pob&p(+13hx66&l79(b!90x)-6-538#wx#x='
 DEBUG = False
 
 ALLOWED_HOSTS = ['localhost',
-    '*.herokuapp.com',
+    'foodappdemo.herokuapp.com',
     '127.0.0.1',
 ]
 
