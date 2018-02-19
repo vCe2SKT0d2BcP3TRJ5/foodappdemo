@@ -6,13 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css">
     <title>Food Items</title>
-    <!-- https://codeload.github.com/vCe2SKT0d2BcP3TRJ5/foodappdemo/zip/master -->
+    <style>
+    	@media (max-width: 575px) {
+    		.hide-for-mobile {
+    			display: none;
+    		}
+    	}
+    </style>
 </head>
 
 <body class="mt-5" style="background-color: #2D4C57;">
     <header class="container">
-        <button onclick="window.location.href='https://arshadh.com/'" class="btn btn-sm btn-outline-secondary">ArshadH.com</button>
-        <button onclick="window.location.href='https://codeload.github.com/vCe2SKT0d2BcP3TRJ5/foodappdemo/zip/master'" class="btn btn-sm btn-outline-secondary">Download Code</button>
+        <div class="hide-for-mobile">
+            <button onclick="window.location.href='https://arshadh.com/'" class="btn btn-sm btn-outline-secondary">ArshadH.com</button>
+            <button onclick="window.location.href='https://codeload.github.com/vCe2SKT0d2BcP3TRJ5/foodappdemo/zip/master'" class="btn btn-sm btn-outline-secondary">Download Code</button>
+        </div>
         <h1 class="text-uppercase text-center text-white mb-5">Categories</h1>
     </header>
     <div class="container">
