@@ -25,7 +25,7 @@ SECRET_KEY = '6n$7x_^0(hmm)=pob&p(+13hx66&l79(b!90x)-6-538#wx#x='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['foodappdemo.herokuapp.com',]
+ALLOWED_HOSTS = ['*',]
 
 
 # Application definition
